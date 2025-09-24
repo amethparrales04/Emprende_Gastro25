@@ -274,9 +274,9 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #db4566;
+  background-color: #e5c125;
   color: #ffffff;
-  border: 1px solid #db4566;
+  border: 1px solid #e5c125;
   border-radius: 5px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -286,7 +286,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #db4566;
+  color: #e5c125;
 }
 
 .slider_section .carousel_btn-box {
