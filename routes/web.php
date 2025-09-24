@@ -9,6 +9,9 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
+Route::get('/conoce', function () {
+    return view('conoce');
+})->name('conoce');
 
 
 Route::get('/dashboard', [UserController::class,'index'])->middleware(['auth', 'verified'])->name('dashboard');
