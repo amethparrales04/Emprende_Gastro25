@@ -1,6 +1,25 @@
 # Emprende_Gastro25
 Proyecto tecnológico que te permite conocer emprendimientos gastronómicos nuevos por explorar en Nicaragua. 
 
+# Uso de la aplicación
+El proposito del proyecto es dar a conocer a los turistas locales y extranjeros, los emprendimientos gastronomicos en Nicaragua, conocer sus precios, menus, dirección y si estan abiertos al público. 
+
+Para instalar la aplicación hay que considerar la implementacion e instalacion de paquetes como lo es laravel, composer, xampp como servidor local, y nodejs para las dependencias. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
