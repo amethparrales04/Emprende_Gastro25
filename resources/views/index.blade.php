@@ -163,18 +163,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Ring
+                  Café Luz
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $200
+                    C$200
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -188,18 +188,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Watch
+                  Luci
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $300
+                    C$120
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -213,18 +213,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Teddy Bear
+                  Teddy <br>Bear
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $110
+                    C$110
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -238,18 +238,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Flower Bouquet
+                  Flower <br>bit
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $45
+                    C$95
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -263,18 +263,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Teddy Bear
+                  Villa <br> Nica
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $95
+                    C$95
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -288,18 +288,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Flower Bouquet
+                  Don <br>vigorón
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $70
+                    C$185
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -313,18 +313,18 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Watch
+                  Selección <br>Nic
                 </h6>
                 <h6>
-                  Price
+                  Precio
                   <span>
-                    $400
+                    C$100
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -341,15 +341,15 @@
                   Dulce Sueños
                 </h6>
                 <h6>
-                  Comida a la Carta
+                  Precio
                   <span>
-                    
+                    C$150
                   </span>
                 </h6>
               </div>
               <div class="new">
                 <span>
-                  New
+                  Nuevo
                 </span>
               </div>
             </a>
@@ -357,7 +357,7 @@
         </div>
       </div>
       <div class="btn-box">
-        <a href="">
+        <a href="{{ url('/conoce') }}">
           Ver Más
         </a>
       </div>
@@ -444,7 +444,7 @@
     <div class="info_container ">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3">
+          <div class="col">
             <h6>
               Acerca de nosotros
             </h6>
@@ -454,14 +454,14 @@
             </p>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div class="col">
             <h6>
               Contactanos
             </h6>
             <div class="info_link-box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Emprendedor Gastronómico </span>
+                <span> Estelí, Nicaragua</span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>

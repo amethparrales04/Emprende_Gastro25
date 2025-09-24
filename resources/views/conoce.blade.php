@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav  ">
             <li class="nav-item active">
-              <a class="nav-link" href="{{ url('/index') }}">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{{ url('/') }}">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ url('/conoce') }}">
@@ -91,7 +91,7 @@
         <div class="container">
             <div class="carousel-container">
                 <div class="carousel-slide active">
-                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Comida Nicaragüense">
+                    <img src="/vista/img/vigoron.png" alt="Comida Nicaragüense">
                     <div class="slide-content">
                         <h2>¿Tienes un Emprendimiento Gastronómico?</h2>
                         <p>Date a Conocer con Nosotros</p>
@@ -99,8 +99,8 @@
                 </div>
             </div>
             <div class="carousel-controls">
-                <button class="carousel-btn prev">Inicia Sesión</button>
-                <button class="carousel-btn next">Registrate</button>
+                <button class="carousel-btn prev" href="{{route('login')}}">Inicia Sesión</button>
+                <button class="carousel-btn next" href="{{route('register')}}">Registrate</button>
             </div>
         </div>
     </section>
@@ -214,7 +214,7 @@
     <div class="info_container ">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3">
+          <div class="col">
             <h6>
               Acerca de nosotros
             </h6>
@@ -224,14 +224,14 @@
             </p>
           </div>
 
-          <div class="col-md-6 col-lg-3">
+          <div class="col">
             <h6>
               Contactanos
             </h6>
             <div class="info_link-box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Emprendedor Gastronómico </span>
+                <span> Estelí, Nicaragua </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
