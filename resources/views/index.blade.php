@@ -30,11 +30,12 @@
 </head>
 
 <body>
+
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="{{ url('#') }}">
           <span>
             Emprendedor Gastronómico
           </span>
@@ -100,7 +101,7 @@
             </form>
           </div>
         </div>
-      </nav>
+
     </header>
     <!-- end header section -->
     <!-- slider section -->
@@ -116,10 +117,9 @@
                     <div class="detail-box"> 
                       <h1>
                         Bienvenidos <br>
-                        La Comida te espera!
                       </h1>
                       <p>
-                        Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
+                        El lugar donde puedes descubrir emprendimientos gastrónomicos en Nicaragua, vive la aventura la Comida te espera!
                       </p>
                       <a href="">
                         Contactanos
@@ -449,11 +449,11 @@
               Acerca de nosotros
             </h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
+              Somos estudiantes de la Universidad Nacional Francisco Luis Espinoza Pineda, Entusiastas de la tecnología con ánimos de mostrar al mundo Emprendedor Gastronómico tu solución para emprendimiento 
+              gastrónomico. 
             </p>
           </div>
 
-          
           <div class="col-md-6 col-lg-3">
             <h6>
               Contactanos
@@ -481,7 +481,7 @@
       <div class="container">
         <p>
           &copy; <span id="displayYear"></span> Todos los derechos reservados.
-          <a href="https://html.design/">Web Tech Knowledge</a>
+          <a href="https://html.design/">Emprendedor Gastronómico</a>
         </p>
       </div>
     </footer>
